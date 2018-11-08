@@ -4,7 +4,7 @@
     margin: 0;
 }
 img {
-    width: 100%;
+    width:100%;
 }
 .wrap {
     max-width: 1215px;
@@ -29,8 +29,44 @@ h2 {
     float: left;
 }
 #banner {
-    padding: 5%;
+    height: 400px;
+    padding: 0;
+    position: relative;
 }
 .xe1:hover {
     border: 1px solid blue;
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#menu ul {
+    position: absolute;
+    top: 20px;
+    left: -250px;
+    background: #8ad385;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+}
+#menu ul li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 4.5em;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#menu ul li:hover {
+    background: #cdeccd
+}
+#icon {
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
 }
