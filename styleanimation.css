@@ -1,0 +1,59 @@
+img {
+    width: 400px;
+}
+.quanao1 {
+    margin-right: 50px;
+}
+.quanao1 {
+    opacity: 1;
+    transition: linear 0.5s;
+}
+.quanao1:hover {
+    opacity: 0.5;
+}
+.quanao2 {
+    margin-right: 50px;
+}
+.quanao2:hover {
+    transform: translate(0, -10px);
+    box-shadow: 5px 5px 5px 0px black;
+}
+.quanao3 {
+    overflow: hidden;
+    float: right;
+}
+.quanao3:hover img {
+    transform: scale(1.2);
+}
+.wrap {
+    max-width: 1310px;
+    margin: auto;
+    overflow: hidden;
+}
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+h1 {
+    animation: title 5s ease infinite;
+    font-size: 60px;
+    text-align: center;
+}
+@keyframes move{
+    0% {opacity: 0; right: -20%; bottom: 0px;}
+    50% {opacity: 1; right: 30%; bottom: 0px;}
+    100% {opacity: 0; right: 60%; bottom: 0px;}
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    position: relative;
+}
