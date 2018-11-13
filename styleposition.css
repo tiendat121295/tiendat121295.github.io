@@ -30,6 +30,7 @@ h2 {
 }
 #banner {
     height: 400px;
+    margin-left: 250px;
     padding: 0;
     position: relative;
 }
